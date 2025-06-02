@@ -19,7 +19,7 @@ variable "subnet_id" {
   type        = string
 }
 
-variable "security_group_ids" {
-  description = "List of security group IDs to attach"
-  type        = list(string)
+variable "vpc_id" {
+  description = "ID of desired VPC"
+  type        = string
 }
